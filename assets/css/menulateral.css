@@ -1,0 +1,56 @@
+nav {
+    /* border: .1rem orangeredsolid orangered; */
+    width: 15rem;
+    background-color: #eee;
+    padding: 0.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
+.opcao {
+    /* border: .1rem solid green; */
+    display: flex;
+    border-radius: 0.5rem;
+    padding: 0.6rem;
+    background-color: #ddd;
+    color: #5e5e5e;
+}
+
+.opcao:hover {
+    background-color: #ccc;
+    color: black;
+    box-shadow: 0.3rem 0.3rem 0.3rem 0.01rem #ddd;
+    border: 0.1rem solid #bdbdbd;
+}
+
+.opcao:hover .rotulo {
+    text-align: right;
+}
+
+.opcao:hover .icone-final {
+    opacity: 1;
+}
+
+.icone-inicial {
+    /* border: .1rem solid red; */
+    width: 1.5rem;
+}
+
+.rotulo {
+    /* border: 1rem solid #0400ff; */
+    flex: 1;
+}
+
+.icone-final {
+    /* border: .1rem solid #d000ff; */
+    width: 1rem;
+    text-align: right;
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
