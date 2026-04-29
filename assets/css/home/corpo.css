@@ -13,3 +13,14 @@ section {
     gap: .8rem;
     justify-content: left;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+    align-items: flex-start;
+}
